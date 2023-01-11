@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+
+    @font-face {
+      font-family: 'Outfit';
+      src: url('./font/Outfit-Medium.ttf') format('truetype');
+      font-style: normal;
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: 'Outfit';
+      src: url('./font/Outfit-Bold.ttf') format('truetype');
+      font-style: bold;
+      font-weight: 700;
+    }
+
+    body {
+      width: 100%;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+
+    }
+
+    .container {
+      font-family: 'Outfit';
+      width: 250px;
+      height: 400px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 2px 3px 15px #ccc;
+      overflow: hidden;
+
+    }
+
+    img {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 20px;
+    }
+
+    h1,
+    p {
+      font-family: 'Outfit';
+      font-weight: 700;
+      font-size: 18px;
+      text-align: center;
+      color: hsl(218, 44%, 22%);
+      padding: 0px 20px 0px 20px;
+    }
+
+    p {
+      font-weight: 300;
+      padding: 15px 20px 0px 20px;
+      font-size: 13px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    .attribution {
+      position: absolute;
+      bottom: 20px;
+      font-family: 'Outfit';
+      text-align: center;
+    }
+
+    .challenge a {
+      color: hsl(218, 44%, 22%);
+      text-decoration: none;
+    }
+
+    .challenge {
+      color: hsl(220, 15%, 55%);
+    }
+
+    .challenge a:hover {
+      color: hsl(220, 15%, 55%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="./images/image-qr-code.png" alt="">
+    <h1>Improve your front-end skills by building projects</h1>
+
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+
+  </div>
+  <div class="attribution">
+    <p class="challenge"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Daronkill" target="_blank"><b>Daronink</b></a>.</p>
+  </div>
+
+</body>
+
+</html>
